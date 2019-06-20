@@ -1,0 +1,10 @@
+select population from countries where name = "France";
+select name, population from countries where name ="Sweden" or name ="Norway" or name ="Denmark";
+select name, population from countries where population >=200000000;
+select name from countries where name like '%United%';
+select name from countries where name like 'B%';
+select name from countries where name like '%Y';
+select name from countries where name like '%X%';
+select name from countries where name like 'C%ia';
+select name from countries where name like '%o%o%';
+select name from countries where name like '%o__o%';
